@@ -4,7 +4,7 @@ trigger:
 pool:
   name: 'Default'
   demands:
-    - agent.name -equals Default
+    - agent.name -equals DESKTOP-ENTMRLI
 
 steps:
 - task: NuGetToolInstaller@1
