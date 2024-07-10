@@ -4,7 +4,7 @@ trigger:
 pool:
   name: 'Default'
   demands:
-    - agent.name -equals someagent
+    - agent.name -equals Default
 
 steps:
 - task: NuGetToolInstaller@1
